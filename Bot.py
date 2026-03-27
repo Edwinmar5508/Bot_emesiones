@@ -15,8 +15,8 @@ from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ─── CONFIGURACIÓN ───────────────────────────────────────────────────────────
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "TELEGRAM_TOKEN")
-CHANNEL_ID     = os.getenv("CHANNEL_ID", "CHANNEL_ID")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8621013563:AAFktZgWLeZmU8Jm6XpNcHk_xzol8oSD-SA")
+CHANNEL_ID     = os.getenv("CHANNEL_ID", "EMESIONES")
 CR_TOKEN_FILE  = "cr_token.json"
 CHECK_INTERVAL = 300          # segundos entre revisiones (5 min)
 LOCALE         = "es-419"
